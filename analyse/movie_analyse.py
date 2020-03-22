@@ -33,7 +33,7 @@ class MovieInfoAnalyse(object):
     def __init__(self):
         if not os.path.exists('analyse_data'):
             os.mkdir('analyse_data')
-        print("所有影评以片名名命保存在 analyse_data 文件夹下...")
+        print("所有分析结果保存在 analyse_data 文件夹下...")
 
     def make_geo_map(self):
         """
