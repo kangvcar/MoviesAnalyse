@@ -199,7 +199,8 @@ class MovieInfoAnalyse(object):
         return c
 
     def make_sentiments_line(self):
-        csv_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir, "moviespider", "comment_data", "极速车王.csv"))
+        # csv_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir, "moviespider", "comment_data", "极速车王.csv"))
+        csv_path = os.path.abspath(os.path.join("D:\\MoviesAnalyse", "moviespider", "comment_data", "极速车王.csv"))
         df = pd.read_csv(csv_path)
         to_drop = ['用户', '是否看过', '评分', '评论时间', '有用数']
         df.drop(to_drop, axis=1, inplace=True)
