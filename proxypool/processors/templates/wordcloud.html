@@ -79,71 +79,23 @@
 									<!-- Content -->
 										<article>
 											<h2 id="make_geo">各国电影发行量</h2>
-											<img src="{{ url_for('static', filename='images/demo10.png') }}" alt="" width="1000" height="300">
+											<img src="{{ url_for('static', filename='images/demo07.png') }}" alt="" width=100% height=100%>
 											<p>通过Pandas处理后返回TOP500中所有影片发行国家字段，
 												使用python的split方法按“，”分割国别字段（爬虫时把每部电影的所有国别用逗号分割保存为一个字段），
 												然后再次使用DataFrame的groupby方法分组统计每个国别的数量，最后利用pycharts生成世界地图</p><br><hr>
 
 											<h2 id="make_wordcloud">影评词云</h2>
-											<img src="{{ url_for('static', filename='images/demo09.jpg') }}" alt="" width="1000" height="300">
+											<img src="{{ url_for('static', filename='images/demo01.png') }}" alt="" width=100% height=100%>
 											<p>通过Pandas处理后返回影评数据，在利用jieba进行中文分词，统计分词结果频率，并利用WordCloud生成每部影片的影评词云</p><br><hr>
 
 			
 											<h2>各年份电影发行量</h2>
-											<div id="make_relase_year_bar" style="width:1000px; height:600px;"></div>
-											<script>
-												$(
-													function () {
-														var chart = echarts.init(document.getElementById('make_relase_year_bar'), 'white', {renderer: 'canvas'});
-														$.ajax({
-															type: "GET",
-															url: "http://127.0.0.1:5000/make_relase_year_bar",
-															dataType: 'json',
-															success: function (result) {
-																chart.setOption(result);
-															}
-														});
-													}
-												)
-											</script>
+											<img src="{{ url_for('static', filename='images/demo02.png') }}" alt="" width=100% height=100%>
 											<p>通过Pandas中DataFrame的groupby方法计算TOP500电影中各年份电影的发行数量，并利用pycharts生成柱状图</p><br><hr>
 
-											<h2>各年类型电影比例</h2>
-											<div id="make_pid_charts" style="width:1000px; height:600px;"></div>
-											<script>
-												$(
-													function () {
-														var chart = echarts.init(document.getElementById('make_pid_charts'), 'white', {renderer: 'canvas'});
-														$.ajax({
-															type: "GET",
-															url: "http://127.0.0.1:5000/make_pid_charts",
-															dataType: 'json',
-															success: function (result) {
-																chart.setOption(result);
-															}
-														});
-													}
-												)
-											</script>
-											<p>通过Pandas中DataFrame的groupby方法计算TOP500电影中各类型电影的发行数量，并利用pycharts生成饼图</p><br><hr>
 
 											<h2>演员热度</h2>
-											<div id="make_star_treemap" style="width:1000px; height:600px;"></div>
-											<script>
-												$(
-													function () {
-														var chart = echarts.init(document.getElementById('make_star_treemap'), 'white', {renderer: 'canvas'});
-														$.ajax({
-															type: "GET",
-															url: "http://127.0.0.1:5000/make_star_treemap",
-															dataType: 'json',
-															success: function (result) {
-																chart.setOption(result);
-															}
-														});
-													}
-												)
-											</script>
+											<img src="{{ url_for('static', filename='images/demo03.png') }}" alt="" width=100% height=100%>
 											<p>通过Pandas处理后返回TOP500影片中所有演员字段，
 												使用python的split方法按“，”分割演员字段（爬虫时把每部电影的所有演员用逗号分割保存为一个字段），
 												然后再次使用DataFrame的groupby方法分组统计演员出演电影的数量，最后利用pycharts生成矩形树图</p>
