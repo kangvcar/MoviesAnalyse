@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 import re
+import os
 import requests
 import pandas as pd
 import time
@@ -161,6 +162,9 @@ def start_spider_comment(movies_id_and_title_dict):
     :param movies_id_and_title_dict:
     :return:
     """
+    if not os.path.exists('comment_data'):
+        os.mkdir('comment_data')
+        print("所有影评以片名名命保存在 comment_data 文件夹下...")
     number = 1
     for movie_id, movie_name in movies_id_and_title_dict.items():
         print(get_current_time() + ' ----->> 正在爬取第 ' + str(number) + '部影片( ' + movie_name + ' )')
@@ -193,7 +197,7 @@ def get_comments(eachComment):
     commentlist.append(comment_time)
     commentlist.append(votes)
     commentlist.append(content.strip())
-    # print(commentlist)
+    print(commentlist)
     return commentlist
 
 
@@ -241,6 +245,7 @@ def get_comment_info_to_txt(movie_id, movie_name):
     base_url = 'https://movie.douban.com/subject/' + str(movie_id) + '/comments?start='
     all_page_comments = [base_url + '{}'.format(x) for x in range(0, 201, 20)]
     filename = movie_name + '.txt'
+    filepath = os.path.join('comment_data', filename)
     for each_page in all_page_comments:
         try:
             html = get_source_page(each_page)
@@ -250,7 +255,7 @@ def get_comment_info_to_txt(movie_id, movie_name):
             for each in comments:
                 # comments_all.append(get_comments(each))
                 each_comment = get_comments(each)
-                with open(filename, 'a', encoding='utf-8') as f:
+                with open(filepath, 'a', encoding='utf-8') as f:
                     # f.write(movie_name + '->' + str(movie_id) + '\n')
                     f.write(each_comment[0] + "\t" + each_comment[1] + "\t" + each_comment[2] + "\t" + each_comment[3] \
                             + "\t" + each_comment[4] + "\t" + each_comment[5] + "\n")
@@ -269,6 +274,7 @@ def get_comment_info_to_cvs(movie_id, movie_name):
     base_url = 'https://movie.douban.com/subject/' + str(movie_id) + '/comments?start='
     all_page_comments = [base_url + '{}'.format(x) for x in range(0, 201, 20)]
     filename = movie_name + '.csv'
+    filepath = os.path.join('comment_data', filename)
     number = 1
     for each_page in all_page_comments:
         try:
@@ -279,16 +285,14 @@ def get_comment_info_to_cvs(movie_id, movie_name):
             for each in comments:
                 comments_all.append(get_comments(each))
             data = pd.DataFrame(comments_all)
-            # print(data)
-            exit()
             # 写入csv文件
             try:
                 if number == 1:
                     csv_headers = ['用户', '是否看过', '评分', '评论时间', '有用数', '评论']
-                    data.to_csv(filename, header=csv_headers, index=False, mode='a+', encoding="utf-8")
+                    data.to_csv(filepath, header=csv_headers, index=False, mode='a+', encoding="utf-8")
                     number += 1
                 else:
-                    data.to_csv(filename, header=False, index=False, mode='a+', encoding="utf-8")
+                    data.to_csv(filepath, header=False, index=False, mode='a+', encoding="utf-8")
             except UnicodeEncodeError:
                 print("编码错误, 跳过...")
             data = []
@@ -299,16 +303,16 @@ def get_comment_info_to_cvs(movie_id, movie_name):
 
 if __name__ == '__main__':
     ## 爬取影评
-    movies_id_and_title = get_hot_movies_id(5, '豆瓣高分')
+    movies_id_and_title = get_hot_movies_id(100, '豆瓣高分')
     """
-    :param movie_sum: 指定爬取电影的数量，范围 1~500
+    :param movie_sum: 指定爬取电影的数量，范围 1~100
     :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
     """
     start_spider_comment(movies_id_and_title)
 
 
     ## 爬取影片信息
-    # movies_id_and_title = get_hot_movies_id(500, '豆瓣高分')
+    # movies_id_and_title = get_hot_movies_id(500, '热门')
     # """
     # :param movie_sum: 指定爬取电影的数量，范围 1~500
     # :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
