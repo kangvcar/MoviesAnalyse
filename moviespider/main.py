@@ -193,7 +193,7 @@ def get_comments(eachComment):
     commentlist.append(comment_time)
     commentlist.append(votes)
     commentlist.append(content.strip())
-    print(commentlist)
+    # print(commentlist)
     return commentlist
 
 
@@ -279,7 +279,7 @@ def get_comment_info_to_cvs(movie_id, movie_name):
             for each in comments:
                 comments_all.append(get_comments(each))
             data = pd.DataFrame(comments_all)
-            print(data)
+            # print(data)
             exit()
             # 写入csv文件
             try:
@@ -299,18 +299,18 @@ def get_comment_info_to_cvs(movie_id, movie_name):
 
 if __name__ == '__main__':
     ## 爬取影评
-    # movies_id_and_title = get_hot_movies_id(1, '豆瓣高分')
+    movies_id_and_title = get_hot_movies_id(5, '豆瓣高分')
     """
     :param movie_sum: 指定爬取电影的数量，范围 1~500
     :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
     """
-    # start_spider_comment(movies_id_and_title)
+    start_spider_comment(movies_id_and_title)
 
 
     ## 爬取影片信息
-    movies_id_and_title = get_hot_movies_id(500, '豆瓣高分')
-    """
-    :param movie_sum: 指定爬取电影的数量，范围 1~500
-    :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
-    """
-    start_spider_movies_info(movies_id_and_title)
+    # movies_id_and_title = get_hot_movies_id(500, '豆瓣高分')
+    # """
+    # :param movie_sum: 指定爬取电影的数量，范围 1~500
+    # :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
+    # """
+    # start_spider_movies_info(movies_id_and_title)
