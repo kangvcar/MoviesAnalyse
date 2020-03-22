@@ -308,7 +308,7 @@ if __name__ == '__main__':
 
 
     ## 爬取影片信息
-    movies_id_and_title = get_hot_movies_id(10, '豆瓣高分')
+    movies_id_and_title = get_hot_movies_id(500, '豆瓣高分')
     """
     :param movie_sum: 指定爬取电影的数量，范围 1~500
     :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
