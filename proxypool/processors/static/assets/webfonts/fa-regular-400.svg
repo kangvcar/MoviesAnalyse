@@ -1,0 +1,4398 @@
+"\u62d6\u540e\u817f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(140,34,23)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u62e5\u62b1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(44,20,156)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u62ef\u6551",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(138,124,82)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u62f7\u95ee",
++                    "value": 5,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(154,44,146)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6307\u70b9",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(80,114,131)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u633a\u76f4",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(103,94,89)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u634f\u788e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(59,10,101)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6362\u666f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(144,132,34)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6390\u6b7b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(91,151,61)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6398\u5893\u4eba",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(98,101,43)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63a2\u5bfb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(78,19,160)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63a2\u8ba8",
++                    "value": 11,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(61,24,105)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63a5\u53d7",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(88,70,38)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63a5\u5730",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(140,148,10)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63a8\u624b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(141,10,32)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63a8\u8350",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(1,5,135)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63cf\u7ed8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(48,77,121)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63cf\u8ff0",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(73,98,11)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63d0\u4e0d\u8d77",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(95,88,137)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63d0\u51fa",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(48,143,88)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63d0\u540d",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(110,50,1)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u63ed\u9732",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(92,48,61)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6446\u597d",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(106,142,81)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u644a\u624b",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(149,132,115)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u644a\u660e",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(1,96,21)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6495\u5f00",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(72,58,71)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6495\u7834",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(133,21,113)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6495\u903c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(15,116,82)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6536\u83b7",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(139,59,108)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6539\u53d8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(44,103,6)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6539\u7f16",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(151,99,151)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u653e\u5230",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(4,19,56)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u653e\u5728",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(152,131,89)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6545\u4e8b",
++                    "value": 34,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(144,55,128)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6545\u4e8b\u4f1a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(111,18,46)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6548\u679c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(27,76,97)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6559\u80b2",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(41,58,71)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6563\u4e71",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(41,132,147)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6572\u8d77",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(43,131,71)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6574\u4f53",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(4,86,156)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6574\u90e8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(45,11,102)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6587\u5316",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(88,93,148)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6587\u5b66",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(39,10,129)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6587\u5b66\u6027",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,9,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6587\u672c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(92,41,84)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6587\u7ae0",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(96,137,66)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6587\u827a\u7247",
++                    "value": 7,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(26,80,137)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65ad\u5b9a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(114,134,49)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65b0\u95fb\u62a5\u9053",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(121,67,121)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65b9\u5411",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(67,140,35)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65b9\u8a00",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(56,100,152)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65cb\u5f8b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(94,103,19)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65e0\u5173",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(17,69,109)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65e0\u6bd4",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(49,46,131)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65e0\u6cd5",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(13,63,70)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65e0\u7aef",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(71,91,119)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65e0\u8da3",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(62,118,41)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65e0\u9650",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(87,155,40)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65e8\u610f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(120,93,63)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65f6\u4ee3",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(38,34,46)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65f6\u5019",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(13,80,92)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u65f6\u95f4",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(118,109,11)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6613\u53d8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(38,116,2)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u661f\u7a7a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(150,135,10)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u662f\u5426",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(41,16,61)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u663e\u5f97",
++                    "value": 5,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(58,104,49)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u666f\u89c2",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(29,23,87)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6697\u6d41",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(134,156,150)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6697\u793a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(84,130,44)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u66b4\u51fb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,81,104)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u66b4\u9732",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(11,5,60)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6709\u5f85",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(28,154,31)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6709\u671b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(114,5,42)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6709\u70b9",
++                    "value": 18,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(87,119,143)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u672a\u77e5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(91,110,90)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u672c\u5b50",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(160,86,69)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u672c\u5e74\u5ea6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(133,1,23)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u672c\u7247",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(4,120,21)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u673a\u68b0",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(78,47,157)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6740\u622e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(68,69,120)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6740\u83cc",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(137,73,156)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6761\u7ebf",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(90,129,55)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6765\u4e34",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(1,142,62)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6765\u5230",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(134,118,59)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6765\u53d7",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(142,99,37)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u677e\u6563",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(50,44,129)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6781\u5177",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(59,61,112)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6784\u56fe",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,14,81)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u67b6\u6784",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(153,112,141)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u67d0\u79cd\u7a0b\u5ea6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(64,153,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u67f4\u7c73\u6cb9\u76d0",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(28,133,143)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6807\u7b7e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(115,118,82)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6838\u5fc3",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(47,44,32)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u68ee\u6797",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(81,101,32)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u690d\u5165",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(76,83,129)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u697c\u68af",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(158,135,75)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6982\u5ff5",
++                    "value": 9,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(34,156,160)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6a21\u5f0f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(99,139,57)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b27\u7f8e",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(80,52,65)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b4c\u8bcd",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(104,41,68)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b63\u59bb",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(116,149,142)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b63\u89e3",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(138,49,84)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b66\u6c49",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(7,24,72)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b7b\u4e8e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,78,21)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b7b\u4ea1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(19,35,31)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b89\u60c5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(119,68,95)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6b8a\u9014",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(93,113,68)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6bcd\u4eb2",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(5,2,78)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6bcd\u6821",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(99,99,81)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6bd4\u4ef7",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(159,135,143)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6beb\u65e0",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(70,121,15)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6c14\u8d28",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(87,87,123)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6c34\u5751",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(16,11,35)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6c34\u5e73",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(141,68,39)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6c92\u6709",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(84,62,0)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ca1\u4e8b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(106,117,16)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ca1\u6709",
++                    "value": 30,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(79,65,34)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ca1\u7528",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(77,76,121)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ca1\u7559",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(118,108,71)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ca1\u80fd",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(18,80,158)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ca1\u8138",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(21,55,83)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6cb9\u817b",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(43,154,52)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6cbb\u6108",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(138,152,74)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d17\u6da4",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(133,30,70)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d1e\u5bdf",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(43,22,36)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d3b\u7740",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(136,76,59)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d41\u4e8e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(77,136,118)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d41\u6d6a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(60,46,6)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d41\u901a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(128,70,158)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d41\u901d",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(134,62,134)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d6a\u8d39",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(58,145,127)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d6e\u73b0",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(157,36,40)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d88\u5931",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(50,64,20)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d88\u78e8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(152,83,113)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d88\u89e3",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,25,151)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6d8c\u52a8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(140,26,71)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6db5\u76d6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(70,20,0)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6df1\u5165",
++                    "value": 7,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(70,138,131)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6df1\u5ea6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(87,145,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6df1\u60c5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(16,35,24)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6df7\u6dc6",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(67,81,83)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6e24\u4e0e\u738b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(93,79,84)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6e24\u5728",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(99,131,148)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6e24\u8bf4",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(85,26,13)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6e24\u8d70\u5fc3",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(106,85,93)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ee1\u5934",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(18,120,33)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6ee1\u5c9b",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(84,55,43)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f02\u4eae\u8bdd",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(84,63,12)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f14\u5458",
++                    "value": 7,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(38,151,39)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f14\u5531",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(110,74,56)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f14\u5f97",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(58,65,113)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f14\u620f",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(154,111,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f14\u6280",
++                    "value": 12,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(51,73,68)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f14\u7ece",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(109,29,148)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f14\u827a\u5708",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(50,94,117)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f20\u89c6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(147,34,34)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6f5c\u53f0\u8bcd",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(53,144,6)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6fc0\u53d1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(39,17,153)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u6fc0\u60c5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(68,9,41)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7075\u6c14",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(13,75,81)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7075\u9b42",
++                    "value": 5,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(3,91,117)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7076\u5934",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(141,41,117)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u70ae\u513f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(49,84,100)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u70b8\u5f39",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(120,19,44)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u70b9\u653e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(128,160,123)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u70c2\u7247",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(153,66,50)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u70ed\u60c5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(64,83,83)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u70ed\u6c34",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(28,87,137)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7126\u70b9",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(49,53,3)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7167\u4eae",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(78,90,128)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7167\u5f97\u4eba",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(112,2,76)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7167\u7247",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(13,95,9)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7167\u89c1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(79,28,102)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7167\u987e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(45,119,154)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u71a8\u5e16",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(47,48,12)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u71c3\u70e7",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(108,96,113)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7206\u7c73\u82b1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(56,16,159)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7231\u4eba",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(39,51,48)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7231\u60c5",
++                    "value": 45,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(5,124,91)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7231\u60c5\u7247",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(8,76,125)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7231\u770b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(96,144,54)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7236\u4eb2",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(58,61,127)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7247\u5b50",
++                    "value": 11,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(10,43,110)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7259\u5237",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(64,153,17)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7267\u91ce",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(27,32,133)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7279\u6027",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(125,148,77)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7279\u6b8a\u6027",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(71,94,124)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u72b6\u6001",
++                    "value": 9,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(61,144,86)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u72b9\u5982",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(73,144,74)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u72d7\u8840",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,62,23)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u72ec\u767d",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(46,137,20)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u72ec\u7acb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(80,123,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u731c\u5fcc",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(72,153,122)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u731c\u7591",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(98,17,108)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u738b\u73de",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(3,18,3)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u73af\u8282",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(76,9,142)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u73b0\u4ee3\u4eba",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(105,141,149)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u73b0\u5b9e",
++                    "value": 17,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(96,99,98)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u73b0\u5b9e\u4e3b\u4e49",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(21,159,136)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u73b0\u8c61",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(144,59,131)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u73ed\u4e3b\u4efb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(139,10,131)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u51fa",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(160,2,34)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u547d",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(21,44,71)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u6001",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,142,69)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u6b7b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,117,85)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u6b7b\u79bb\u522b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(11,154,96)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u6c14",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(71,56,135)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u6d3b",
++                    "value": 24,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(92,48,95)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u751f\u957f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(34,38,67)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7528\u529b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(0,57,32)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7528\u5fc3",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(1,128,102)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7535\u5f71",
++                    "value": 51,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(22,49,27)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7535\u5f71\u9662",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(21,108,47)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7535\u89c6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(138,41,130)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7535\u89c6\u53f0",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(158,75,104)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7537\u4eba",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(145,34,128)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7537\u5973",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(85,124,82)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7537\u6027",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(122,160,154)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7537\u764c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(42,144,31)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7559\u4e0b",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(91,156,48)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u75d5\u8ff9",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(41,22,142)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u762b\u75ea",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(92,129,71)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u767d\u5ba2",
++                    "value": 5,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(85,74,90)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7687\u5e1d",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(19,122,128)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f4\u7537",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(23,116,2)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f4\u767d",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(116,84,85)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f4\u89c2",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(80,120,7)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f4\u89c6",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(47,75,128)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f8\u4f3c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(56,41,51)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f8\u4fe1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(101,153,20)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f8\u6096",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(153,53,140)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f8\u7231",
++                    "value": 16,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(103,65,58)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u76f8\u9047",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(1,104,9)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u4e0d\u4e0b\u53bb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(160,107,130)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u4e0d\u61c2",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(159,58,135)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u4f3c",
++                    "value": 7,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(25,20,73)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u5230",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(50,98,83)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u5b8c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(153,43,52)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u5f97",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,127,150)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u7740",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(18,99,146)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u89c1",
++                    "value": 5,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(18,149,89)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u770b\u8fc7",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,148,65)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u771f\u5b9e\u611f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(77,83,104)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u771f\u8bdd",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(99,71,34)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u773c\u795e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(87,16,44)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7740\u58a8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(152,39,146)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u77e5\u9053",
++                    "value": 13,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(96,68,84)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u77e5\u97f3",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(2,141,91)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u77ed\u677f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(64,150,87)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u77ed\u7247",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(132,67,94)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u786c\u5ea6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(36,105,37)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u786e\u8ba4",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(93,46,46)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u788e\u7247",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(114,92,127)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u78d5\u5230",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(159,132,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u793e\u4f1a",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(117,39,24)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u795e\u4f5c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(81,83,120)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u795e\u6027",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(148,60,20)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u795e\u79d8\u4e3b\u4e49",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(13,10,94)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u79bb\u5f00",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(104,51,34)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u79d1\u5b66",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(105,73,38)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u79d1\u5e7b",
++                    "value": 33,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(141,30,27)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u79d1\u5e7b\u7247",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(129,53,112)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u79e6\u5c71",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(145,52,140)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u79fb\u6b65",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(146,124,15)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7a00\u91ca",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(147,95,57)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7a7a\u865a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(89,118,79)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7a7a\u95f4",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(94,114,19)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7a7a\u95f4\u611f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,28,132)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7a81\u7834",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(6,152,75)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7acb\u4f53",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(126,72,116)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7b03\u4fe1",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(151,24,69)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7b26\u5408",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(104,114,155)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7b49\u95f2",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(101,146,60)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7b54\u6848",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(115,19,54)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7b77\u5b50",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(24,26,125)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7b97\u5f97",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(13,158,2)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7b97\u662f",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(156,133,132)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7c7b\u578b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(160,65,83)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7cbe\u51c6",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(13,65,8)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7d50\u5c40",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(116,26,24)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ea0\u7f20",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(158,7,142)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ea6\u4f1a",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(74,25,4)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ebf\u7d22",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(28,64,76)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ebf\u8def",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(67,147,82)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ec6\u8282",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(22,45,51)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed1\u67b6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(72,44,85)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed3\u5c3e",
++                    "value": 9,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(47,122,8)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed3\u5c40",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(20,27,142)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed3\u675f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(73,87,23)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed3\u6784",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(39,71,60)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed3\u679c",
++                    "value": 7,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(139,8,145)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed3\u7f18",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(154,40,12)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ed3\u8bba",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(116,99,32)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7edf\u4e00",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(64,71,6)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ee7\u7eed",
++                    "value": 7,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(51,62,112)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7eed\u96c6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(74,67,6)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ef4\u5ea6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(80,137,123)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7ef4\u6301",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(129,156,129)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7efc\u827a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(152,18,15)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7eff\u5149",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(105,111,0)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f16\u5267",
++                    "value": 14,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(143,137,116)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f1d\u9699",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(121,39,7)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f29\u77ed",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(153,66,125)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f29\u77ed\u6210",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(158,28,136)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f3a\u4e4f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(92,26,131)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f3a\u70b9",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(28,145,18)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f6e\u4e8e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(158,144,42)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f8e\u5267",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(142,107,63)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7f8e\u5b66",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(49,97,82)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7fa1\u6155",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(17,121,128)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u7fa4\u620f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(53,123,147)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8001\u5957",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(55,114,118)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8001\u5a46",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(1,35,87)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8001\u5b50",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(24,81,13)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8001\u5e08",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(135,96,98)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8003\u9a8c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(144,3,144)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8089\u4f53",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(101,89,76)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u808c\u5e95",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(19,127,139)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u80a5\u7682",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(0,18,144)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u80cc\u5149",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(5,79,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u80cc\u5f71",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(153,48,124)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u80cc\u666f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(141,14,33)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u80e1\u626f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(75,123,62)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u80fd\u529b",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(140,101,139)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u80fd\u591f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(29,65,159)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8111\u4ea4",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(91,99,95)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8111\u5b50\u91cc",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(74,22,77)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8111\u6d1e",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(17,78,7)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8111\u95e8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(50,20,113)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8131\u79bb",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(98,50,101)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u81ea\u5bfc",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(74,93,130)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u81ea\u601c",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(26,147,22)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u81ea\u7f16",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(75,60,109)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u81ea\u8bc1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(92,113,125)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u820d\u5f97",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(115,10,11)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8272\u8c03",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(159,87,120)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u827a\u672f\u5bb6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,6,69)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8282\u594f",
++                    "value": 5,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(152,62,122)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u82b1\u54e8",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(11,43,137)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u82cd\u8747",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(111,87,67)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u836f\u795e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(47,115,43)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u843d\u5230",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(94,46,63)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u843d\u5730",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(33,39,112)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u843d\u5c3e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(97,35,41)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u843d\u70b9",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(152,120,137)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8463\u6da6",
++                    "value": 11,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(117,140,130)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8471\u849c",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(59,75,100)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u86cb\u7092\u996d",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(131,148,97)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u878d\u5408",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(11,159,143)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u884c\u51f6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(63,18,105)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u884c\u6d3b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(152,108,95)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u884c\u6df1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(44,62,17)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u884c\u8bc6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(4,74,103)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8868\u60c5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(27,112,90)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8868\u6f14",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(11,81,29)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8868\u73b0",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(104,142,45)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8868\u8fbe",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(26,63,137)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8868\u8ff0",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(20,0,90)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8868\u9762",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(41,98,117)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u886c\u6258",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(95,112,151)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u88ab\u5220",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,115,69)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u88ab\u5224",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(19,100,136)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89c2\u4f17",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(68,156,158)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89c2\u5f71",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(139,2,116)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89c6\u89d2",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(126,30,66)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89c6\u91ce",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(33,89,88)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89c9\u5f97",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(79,9,19)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89d2\u5ea6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(50,83,136)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89d2\u8272",
++                    "value": 15,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(141,118,157)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89e3\u51b3\u95ee\u9898",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(14,149,113)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89e3\u6784",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(46,103,21)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89e3\u8131",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(148,82,37)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89e3\u91ca",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(79,157,79)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u89e6\u53ca",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(76,96,133)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8ba1\u5212",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(155,150,39)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8ba4\u4e3a",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(65,109,49)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8ba8\u8981",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(29,20,52)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8ba8\u8bba",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(106,139,68)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bb0\u4f4f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(117,81,86)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bb0\u5f97",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(146,123,140)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bb0\u5fc6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(138,158,120)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bb2\u6cd5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(118,92,63)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bb2\u8bb2",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(99,136,107)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bb2\u9053\u7406",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(29,153,45)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bbd\u523a",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(101,143,97)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bbe\u5b9a",
++                    "value": 17,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(10,29,64)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bbe\u7f6e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(21,93,86)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bbe\u8ba1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(157,50,12)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bc1\u660e",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(5,3,51)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bc4\u4ef7",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(114,29,139)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bd5\u56fe",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(5,104,153)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bdd\u9898",
++                    "value": 7,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(87,154,36)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bde\u4e00",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(75,119,4)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bde\u662f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(19,88,159)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bed\u7cfb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(154,33,32)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bed\u8a00",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(100,151,82)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bf4\u670d",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(133,103,33)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8bf4\u6cd5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(55,139,7)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8c03\u5ea6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(97,69,38)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8c03\u8272",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(109,156,28)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8c03\u8c03",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(127,10,15)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8c08\u8bba",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(78,60,39)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8c0e\u8a00",
++                    "value": 3,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(154,34,90)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d1f\u6c14",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(135,18,61)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d1f\u8d23",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(42,23,3)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d21\u732e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(119,21,88)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d28\u611f",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(105,13,60)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d28\u95ee",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(155,82,36)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d2a\u604b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(106,158,25)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d70\u51fa",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(154,38,4)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d70\u5411",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(23,27,34)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d77\u6765",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(49,96,56)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d77\u70b9",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(88,36,20)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d77\u7801",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(21,91,133)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8d85\u957f",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(129,61,50)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8db3\u4ee5",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(22,112,51)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8db3\u591f",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(142,136,4)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8dcc\u5165",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(113,21,13)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8df3\u697c",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(44,108,47)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8df3\u821e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(107,32,156)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8eab\u4f53",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(114,18,65)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8eab\u4f53\u53d1\u80a4",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(30,33,113)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8f6e\u64ad",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(14,97,11)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fa9\u9898",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(34,121,38)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fc7\u4e8e",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(132,61,133)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fc7\u5ba1",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(95,19,45)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fc7\u5ea6",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(52,49,38)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fc7\u65e5\u5b50",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(108,113,45)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fc7\u7a0b",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(25,92,148)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fd8\u539f",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(39,107,80)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fd8\u6709",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(74,111,0)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fdb\u5165",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(109,97,91)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fdb\u53bb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(72,89,52)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fdb\u6c34",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(44,51,68)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u8fdb\u884c",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(8,55,144)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9000\u6b65",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(122,129,92)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9009\u62e9",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(7,87,30)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9009\u62e9\u6743",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(78,26,52)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9010\u68a6",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(43,128,13)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u901a\u5411",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(90,7,147)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u903b\u8f91",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(127,87,42)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u903c\u4eba",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(41,130,53)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9053\u5149",
++                    "value": 12,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(28,156,38)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9057\u7559\u4e0b",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(20,65,14)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9075\u5faa",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(113,158,104)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u90e8\u5206",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(55,60,157)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u90fd\u5e02",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(144,63,4)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u914d\u4e50",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(9,11,155)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u914d\u5408",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(55,123,148)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9152\u5c40",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(21,45,55)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9152\u684c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(43,17,149)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9152\u684c\u4e0a",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(120,109,26)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9177\u513f",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(38,98,47)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u91cd\u70b9",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(40,147,155)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u91ce\u5fc3",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(118,37,44)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u91cf\u5b50",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(97,104,107)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u94a5\u5319",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(118,123,63)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u94a9\u5b50",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(110,109,20)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u94bb\u77f3",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(60,91,28)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9519\u8bef",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(58,42,16)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u953b\u70bc",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(103,151,160)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u955c\u5934",
++                    "value": 16,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(119,103,3)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u955c\u5b50",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(117,151,30)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9563\u94d0",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(87,124,156)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u957f\u5927",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(130,74,49)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u957f\u955c\u5934",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(36,47,91)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u95ed\u773c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(51,22,11)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u95ee\u9898",
++                    "value": 25,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(4,33,145)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9605\u5386",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(135,80,56)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9610\u91ca",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(91,53,99)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9646\u79bb",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(150,49,39)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u964d\u795e",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(122,70,51)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9662\u7ebf",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(32,5,123)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u966a\u886c",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(6,152,41)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9690\u5fcd",
++                    "value": 4,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(6,45,32)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u96be\u582a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(54,39,49)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u96be\u6f14",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(40,74,56)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u96be\u9898",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(41,120,89)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9700\u8981",
++                    "value": 8,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(151,80,127)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9760\u8fd1",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(15,132,149)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9762\u5411",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(112,137,37)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9762\u5bf9",
++                    "value": 6,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(7,118,106)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9762\u8c8c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(98,8,6)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u97f3\u4e50",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(70,124,77)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u987a\u52bf",
++                    "value": 1,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(94,139,23)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9884\u5b9a",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(25,24,73)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9884\u7b97",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(8,78,114)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u9898\u6750",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,3,66)"
++                        }
++                    }
++                },
++                {
++                    "name": "\u98ce\u683c",
++                    "value": 2,
++                    "textStyle": {
++                        "normal": {
++                            "color": "rgb(123,153,125)"
++                        

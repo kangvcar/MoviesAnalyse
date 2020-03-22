@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>代理池/影评分析系统</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static',filename='assets/css/main.css') }}" />
+		<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+		<style>
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		</style>
+	</head>
+	<body class="is-preload left-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href=".">影评系统</a></h1>
+								<span>by 何康健</span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href=".">Welcome</a></li>
+									<li><a href="/proxypool">代理池</a></li>
+									<li class="current"><a href="/wordcloud">数据分析</a></li>
+									<li><a href="/analysis">情感分析</a></li>
+								</ul>
+							</nav>
+							{% for jsfile_name in script_list %}
+								<script src="{{ host }}/{{ jsfile_name }}.js"></script>
+							{% endfor %}
+					</header>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-medium">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+										<section>
+											<h3>项目介绍</h3>
+											<p>
+												数据分析模块将对所爬取电影数据和评论数据进行分析，利用Pandas数据分析工具库对数据进行检查、
+												处理缺失数据、添加默认值、删除不完整的行、删除不完整的列、规范化数据类型、必要的转换、
+												重命名列名、保存处理结果。利用jieba中文分词工具库对每条影评进行分词、设置停用词、生成结果列表。
+												利用pyecharts图表工具库进行数据可视化，生成影评词云、柱状图、饼图、矩形树图、世界地图等等。
+											</p>
+										</section>
+
+										<section>
+											<h3>快速跳转</h3>
+											<ul class="style2">
+												<li><a href="#make_geo">各国电影发行量</a></li>
+												<li><a href="#make_wordcloud">影评词云</a></li>
+												<li><a href="#make_relase_year_bar">各年份电影发行量</a></li>
+												<li><a href="#make_pid_charts">各年类型电影比例</a></li>
+												<li><a href="#make_star_treemap">演员热度</a></li>
+											</ul>
+										</section>
+
+								</div>
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+								<div id="content">
+
+									<!-- Content -->
+										<article>
+											<h2 id="make_geo">各国电影发行量</h2>
+											<img src="{{ url_for('static', filename='images/demo10.png') }}" alt="" width="1000" height="300">
+											<p>通过Pandas处理后返回TOP500中所有影片发行国家字段，
+												使用python的split方法按“，”分割国别字段（爬虫时把每部电影的所有国别用逗号分割保存为一个字段），
+												然后再次使用DataFrame的groupby方法分组统计每个国别的数量，最后利用pycharts生成世界地图</p><br><hr>
+
+											<h2 id="make_wordcloud">影评词云</h2>
+											<img src="{{ url_for('static', filename='images/demo09.jpg') }}" alt="" width="1000" height="300">
+											<p>通过Pandas处理后返回影评数据，在利用jieba进行中文分词，统计分词结果频率，并利用WordCloud生成每部影片的影评词云</p><br><hr>
+
+			
+											<h2>各年份电影发行量</h2>
+											<div id="make_relase_year_bar" style="width:1000px; height:600px;"></div>
+											<script>
+												$(
+													function () {
+														var chart = echarts.init(document.getElementById('make_relase_year_bar'), 'white', {renderer: 'canvas'});
+														$.ajax({
+															type: "GET",
+															url: "http://127.0.0.1:5000/make_relase_year_bar",
+															dataType: 'json',
+															success: function (result) {
+																chart.setOption(result);
+															}
+														});
+													}
+												)
+											</script>
+											<p>通过Pandas中DataFrame的groupby方法计算TOP500电影中各年份电影的发行数量，并利用pycharts生成柱状图</p><br><hr>
+
+											<h2>各年类型电影比例</h2>
+											<div id="make_pid_charts" style="width:1000px; height:600px;"></div>
+											<script>
+												$(
+													function () {
+														var chart = echarts.init(document.getElementById('make_pid_charts'), 'white', {renderer: 'canvas'});
+														$.ajax({
+															type: "GET",
+															url: "http://127.0.0.1:5000/make_pid_charts",
+															dataType: 'json',
+															success: function (result) {
+																chart.setOption(result);
+															}
+														});
+													}
+												)
+											</script>
+											<p>通过Pandas中DataFrame的groupby方法计算TOP500电影中各类型电影的发行数量，并利用pycharts生成饼图</p><br><hr>
+
+											<h2>演员热度</h2>
+											<div id="make_star_treemap" style="width:1000px; height:600px;"></div>
+											<script>
+												$(
+													function () {
+														var chart = echarts.init(document.getElementById('make_star_treemap'), 'white', {renderer: 'canvas'});
+														$.ajax({
+															type: "GET",
+															url: "http://127.0.0.1:5000/make_star_treemap",
+															dataType: 'json',
+															success: function (result) {
+																chart.setOption(result);
+															}
+														});
+													}
+												)
+											</script>
+											<p>通过Pandas处理后返回TOP500影片中所有演员字段，
+												使用python的split方法按“，”分割演员字段（爬虫时把每部电影的所有演员用逗号分割保存为一个字段），
+												然后再次使用DataFrame的groupby方法分组统计演员出演电影的数量，最后利用pycharts生成矩形树图</p>
+										</article>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; 何康健. All rights reserved</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="{{ url_for('static',filename='assets/js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/jquery.dropotron.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/browser.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/breakpoints.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/util.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/main.js') }}"></script>
+
+	</body>
+</html>

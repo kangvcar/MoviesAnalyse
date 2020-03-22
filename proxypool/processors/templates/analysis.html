@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>代理池/影评分析系统</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static',filename='assets/css/main.css') }}" />
+		<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+		<style>
+		#make_sentiments_line {
+			max-width: 100%;
+			height: auto;
+		}
+		</style>
+	</head>
+	<body class="is-preload left-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href=".">影评系统</a></h1>
+								<span>by 何康健</span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href=".">Welcome</a></li>
+									<li><a href="/proxypool">代理池</a></li>
+									<li><a href="/wordcloud">数据分析</a></li>
+									<li class="current"><a href="/analysis">情感分析</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-medium">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+										<section>
+											<h3>项目介绍</h3>
+											<p>
+												影评分析模块通过对爬取的数据进行清洗，分析，利用自然语言处理工具SnowNLP分析每部影片的影评信息，
+												获得情感分数，并制作图表使数据可视化。以帮助观影者和投资方更好的进行选择。
+												<br>
+												<h3>结果说明： </h3>
+												越接近0.5表示正面情绪 <br>
+												越接近-0.5表示负面情绪
+											</p>
+										</section>
+
+										<section>
+											<h3>相关链接</h3>
+											<ul class="style2">
+												<li><a href="https://github.com/isnowfy/snownlp">SnowNLP</a></li>
+											</ul>
+										</section>
+
+								</div>
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+								<div id="content">
+
+									<!-- Content -->
+										<article>
+
+											<h2>影评情感分析</h2>
+											<p>数据在后端实时分析，图表实时渲染，显示会有延迟</p>
+											<div id="make_sentiments_line" style="width:1000px; height:600px;"></div>
+											<script>
+												$(
+													function () {
+														var chart = echarts.init(document.getElementById('make_sentiments_line'), 'white', {renderer: 'canvas'});
+														$.ajax({
+															type: "GET",
+															url: "http://127.0.0.1:5000/make_sentiments_line",
+															dataType: 'json',
+															success: function (result) {
+																chart.setOption(result);
+															}
+														});
+													}
+												)
+											</script>
+											<p>通过Pandas处理后返回影评数据，在利用snowNLP自然语言情感分析工具库计算每条影评的情感分数（结果接近0.5为积极，接近-0.5为消极），
+												并利用pyecharts生成情感分析结果折线图，使结果更加直观</p>
+
+										</article>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; 何康健. All rights reserved</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="{{ url_for('static',filename='assets/js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/jquery.dropotron.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/browser.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/breakpoints.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/util.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/main.js') }}"></script>
+
+	</body>
+</html>

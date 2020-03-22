@@ -1,0 +1,52 @@
+"use strict";
+const taskagentbasem = require("./TaskAgentApiBase");
+const url = require("url");
+class TaskAgentApi extends taskagentbasem.TaskAgentApiBase {
+    constructor(baseUrl, handlers) {
+        super(baseUrl, handlers);
+        // hang on to the handlers in case we need to fall back to an account-level client
+        this._handlers = handlers;
+    }
+    /**
+     * @param {string} taskId
+     * @param onResult callback function
+     */
+    deleteTaskDefinition(taskId) {
+        let promise = this.vsoClient.beginGetLocation("distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd")
+            .then((location) => {
+            if (location) {
+                // the resource exists at the url we were given. go!
+                return super.deleteTaskDefinition(taskId);
+            }
+            else {
+                // this is the case when the server doesn't support collection-level task definitions
+                var fallbackClient = this._getFallbackClient(this.baseUrl);
+                if (!fallbackClient) {
+                    // couldn't convert
+                    throw new Error("Failed to find api location for area: distributedtask id: 60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd");
+                }
+                else {
+                    // use the fallback client 
+                    return fallbackClient.deleteTaskDefinition(taskId);
+                }
+            }
+        });
+        return promise;
+    }
+    /**
+     * @param {string} taskId
+     * @param {string} versionString
+     * @param {string[]} visibility
+     * @param {boolean} scopeLocal
+     * @param onResult callback function with the resulting ArrayBuffer
+     */
+    getTaskContentZip(taskId, versionString, visibility, scopeLocal) {
+        let promise = this.vsoClient.beginGetLocation("distributedtask", "60aac929-f0cd-4bc8-9ce4-6b30e8f1b1bd")
+            .then((location) => {
+            if (location) {
+                // the resource exists at the url we were given. go!
+                return super.getTaskContentZip(taskId, versionString, visibility, scopeLocal);
+            }
+            else {
+                // this is the case when the server doesn't support collection-level task definitions
+  

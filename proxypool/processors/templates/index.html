@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>代理池/影评分析系统</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static',filename='assets/css/main.css') }}" />
+		<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    	<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+	</head>
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href=".">影评系统</a></h1>
+								<span>by 何康健</span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href=".">Welcome</a></li>
+									<li><a href="/proxypool">代理池</a></li>
+									<li><a href="/wordcloud">数据分析</a></li>
+									<li><a href="/analysis">情感分析</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<div id="banner" class="box container">
+						<div class="row">
+							<div class="col-7 col-12-medium">
+								<h2>Welcome.</h2>
+								<p>代理池数量：{{ proxy_count }}</p>
+								<p>影 评 数 量：220318</p>
+							</div>
+							<div class="col-5 col-12-medium">
+								<ul>
+									<li><a href="/random
+" class="button large icon solid fa-arrow-circle-right">获取代理</a></li>
+									<li><a href="/wordcloud" class="button large icon solid fa-arrow-circle-right">影评可视化</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Features -->
+				<div id="features-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="{{ url_for('static', filename='images/demo01.png') }}" alt="" /></a>
+										<div class="inner" align="center">
+											<header>
+												<h2>影评词云</h2>
+												<p>基于Pyecharts库生成</p>
+											</header>
+											<p>词云是对海量文字内容中出现频率较高的“关键词”的视觉突出，即出现越多的“关键词”字体越大，能从侧面体现文本内容的重点。</p>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="{{ url_for('static', filename='images/demo02.png') }}" alt="" /></a>
+										<div class="inner" align="center">
+											<header>
+												<h2>各电影类型占比饼图</h2>
+												<p>基于Pyecharts库生成</p>
+											</header>
+											<p>饼图，或称饼状图，是一个划分为几个扇形的圆形统计图表，用于描述量、频率或百分比之间的相对关系。</p>
+										</div>
+									</section>
+
+							</div>
+							<div class="col-4 col-12-medium">
+
+								<!-- Box -->
+									<section class="box feature">
+										<a href="#" class="image featured"><img src="{{ url_for('static', filename='images/demo03.png') }}" alt="" /></a>
+										<div class="inner" align="center">
+											<header>
+												<h2>演员热度矩形树形图</h2>
+												<p>基于Pyecharts库生成</p>
+											</header>
+											<p>矩形树图的好处在于，相比起传统的树形结构图，矩形树图能更有效得利用空间，并且拥有展示占比的功能。</p>
+										</div>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<div id="sidebar">
+										<section class="widget thumbnails">
+											<h3>数据分析</h3>
+											<div class="grid">
+												<div class="row gtr-50">
+													<div class="col-6"><a href="#" class="image fit"><img src="{{ url_for('static', filename='images/demo04.png') }}" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="{{ url_for('static', filename='images/demo05.png') }}" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="{{ url_for('static', filename='images/demo06.png') }}" alt="" /></a></div>
+													<div class="col-6"><a href="#" class="image fit"><img src="{{ url_for('static', filename='images/demo07.png') }}" alt="" /></a></div>
+												</div>
+											</div>
+											<a href="/wordcloud" class="button icon fa-file-alt">查看更多分析</a>
+										</section>
+									</div>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<div id="content">
+										<section class="last">
+											<h2>项目开发背景</h2>
+											<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp当今社会发展迅猛，在国家经济发展欣欣向荣的时代，解决温饱问题后的人们开始追求精神上的满足，得益于此，影视行业有了飞速的发展。
+												近年来，得益于国民经济的持续快速增长以及国家对文化产业的支持，整体电影文化与产业环境持续改善。
+												据影视行业分析，作为文化娱乐市场重要组成部分的电影市场已连续多年实现电影票房的快速增长，
+												同时，吸引了各类社会资本积极进军电影行业，从而进一步推动了影视行业的良性快速发展。
+												根据数据，2018年中国电影总票房达到559.11（含服务费）亿元，同比增长13.45%，较2017年同期增速回暖明显。
+												城市观影人次达16.2亿人，同比增长11.19%；新增银幕9597块，总量达到50776块，超越北美市场成为全球第一。<br>
+												&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp在电影高产的年代里，对电影信息进行数据分析变得尤为重要，通过对历史的电影信息进行分析可以得出对制片公司更有价值的数据，
+												制片公司可以对了解到人们更倾向于什么类型的制作，或者观众更喜欢哪种题材，又或者哪些演员更受观众喜爱，哪个时间段发行能获得更大的收益等等。
+												而观众也可以从对电影信息的分析找到哪些影片更多人的推荐，哪些影片的反映更好，从而选择更好的影片去观看。<br>
+												<strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp因此，在这个项目中我将利用Python爬虫技术获取互联网上的电影信息和网友的影片信息，
+												通过对爬取的电影信息进行处理，清洗，分析，可视化，最后对网友的影评进行情感分析。从而使得电影数据更加直观，数据更具价值。</strong>
+
+											</p>
+										</section>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; 何康健. All rights reserved</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="{{ url_for('static',filename='assets/js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/jquery.dropotron.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/browser.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/breakpoints.min.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/util.js') }}"></script>
+			<script src="{{ url_for('static',filename='assets/js/main.js') }}"></script>
+	</body>
+</html>
