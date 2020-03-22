@@ -1,4 +1,4 @@
-from flask import Flask, g, render_template, url_for
+from flask import Flask, g, render_template, redirect, url_for
 from proxypool.storages.redis import RedisClient
 from proxypool.setting import API_HOST, API_PORT, API_THREADED
 from analyse.movie_analyse import MovieInfoAnalyse
@@ -26,7 +26,7 @@ def index():
     for x in conn.batch(1, 10):
         proxy_each = str(x.host) + ':' + str(x.port)
         proxy_all.append(proxy_each)
-    return render_template('index.html', proxy_count=str(conn.count()), proxy_all=proxy_all)
+    return render_template("index.html", proxy_count=str(conn.count()), proxy_all=proxy_all)
 
 
 @app.route('/random')
