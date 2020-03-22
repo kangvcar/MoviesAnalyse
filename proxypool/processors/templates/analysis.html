@@ -77,8 +77,10 @@
 
 											<h2>影评情感分析</h2>
 											<p>数据在后端实时分析，图表实时渲染，显示会有延迟</p>
-											<div id="make_sentiments_line" style="width:1000px; height:600px;"></div>
-											<script>
+											<div id="make_sentiments_line" style="width:1000px; height:600px;">
+												<img src="{{ url_for('static', filename='images/demo04.png') }}" alt="" />
+											</div>
+											{% comment %} <script>
 												$(
 													function () {
 														var chart = echarts.init(document.getElementById('make_sentiments_line'), 'white', {renderer: 'canvas'});
@@ -92,7 +94,7 @@
 														});
 													}
 												)
-											</script>
+											</script> {% endcomment %}
 											<p>通过Pandas处理后返回影评数据，在利用snowNLP自然语言情感分析工具库计算每条影评的情感分数（结果接近0.5为积极，接近-0.5为消极），
 												并利用pyecharts生成情感分析结果折线图，使结果更加直观</p>
 
