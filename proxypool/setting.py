@@ -63,7 +63,7 @@ TEST_VALID_STATUS = env.list('TEST_VALID_STATUS', [200, 206, 302])
 
 # definition of api
 API_HOST = env.str('API_HOST', '0.0.0.0')
-API_PORT = env.int('API_PORT', 5555)
+API_PORT = env.int('API_PORT', 5000)
 API_THREADED = env.bool('API_THREADED', True)
 
 # flags of enable
