@@ -27,7 +27,7 @@ import os
 # if not os.path.exists(target_dir):
 #         os.mkdir(target_dir)
 #         print("所有分析结果保存在 ", target_dir, " 文件夹下...")
-base_dir = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir, "moviespider", "comment_data"))
+# base_dir = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir, "moviespider", "comment_data"))
 # print(base_dir)
 # print("=============")
 # # all_files = [base_dir + i for i in os.listdir(base_dir) if os.path.splitext(i)[1] == '.csv']
@@ -36,6 +36,9 @@ base_dir = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.par
 #     if os.path.splitext(i)[1] == '.csv':
 #         print(os.path.join(base_dir, i))
 
-a = [os.path.join(base_dir, i) for i in os.listdir(base_dir) if os.path.splitext(i)[1] == '.csv']
-for x in a:
-    print(os.path.basename(x).split('.')[0])
+# a = [os.path.join(base_dir, i) for i in os.listdir(base_dir) if os.path.splitext(i)[1] == '.csv']
+# for x in a:
+    # print(os.path.basename(x).split('.')[0])
+base_dir = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir, "moviespider", "comment_data"))
+print(base_dir)
+print(os.path.dirname("__file__"))

@@ -108,7 +108,7 @@ def make_echarts_to_flask(dfword, title):
 def make_bar_rating(filename):
     # 定义各个文件名
     # title = filename.split('/')[-1].split('.')[0]
-    title = os.path.basename(file).split('.')[0]
+    title = os.path.basename(filename).split('.')[0]
     target_dir = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "bar_echarts_pic")
     if not os.path.exists(target_dir):
         os.mkdir(target_dir)
@@ -131,7 +131,7 @@ def make_bar_rating(filename):
     bar = Bar()
     bar.add_xaxis(['力荐', '推荐', '还行', '较差', '很差'])
     bar.add_yaxis(title, [values['力荐'], values['推荐'], values['还行'], values['较差'], values['很差']])
-    bar.render(htmlPath)
+    # bar.render(htmlPath)
     make_snapshot(snapshot, bar.render(), pngPath)
 
 
