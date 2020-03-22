@@ -142,11 +142,16 @@ def make_bar_voter_star(filename):
     :return:
     """
     # 定义各个文件名
-    title = filename.split('/')[-1].split('.')[0]
+    # title = filename.split('/')[-1].split('.')[0]
+    title = os.path.basename(filename).split('.')[0]
+    target_dir = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "bar_voter_star_pic")
+    if not os.path.exists(target_dir):
+        os.mkdir(target_dir)
+    print("分析结果保存在 ", target_dir, " 文件夹下...")
     htmlName = title + '.html'
     pngName = title + '.png'
-    htmlPath = os.path.join('./bar_voter_star_pic/', htmlName)
-    pngPath = os.path.join('./bar_voter_star_pic/', pngName)
+    htmlPath = os.path.join(target_dir, htmlName)
+    pngPath = os.path.join(target_dir, pngName)
     # 导入数据，并删除无关列
     rows = pd.read_csv(filename, encoding='utf-8', dtype=str)
     to_drop=['是否看过', '评论时间', '评分', '评论']
@@ -186,9 +191,9 @@ def main():
             # segments = comment_cut_list(file)
             # make_echarts_to_flask(make_frequencies_df(segments), title)
             ###### pyecharts 生成bar 根据评分######
-            make_bar_rating(file)
+            # make_bar_rating(file)
             ###### pyecharts 生成水平bar 根据有用数######
-            # make_bar_voter_star(file)
+            make_bar_voter_star(file)
         except Exception as e:
             print(e)
             print(get_current_time() + '| ----->> 生成结果失败' + str(number) + '.(' + title + ')...')
