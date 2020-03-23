@@ -26,10 +26,10 @@
 4. 运行影片爬虫模块
    `python3 moviespider/main.py`
 5. 运行数据分析模块
-   top500影片信息分析
-   `python3 analyse/movie_analyse.py`
-   影片分析
-   `python3 analyse/comment_analyse.py`
+   - top500影片信息分析
+        `python3 analyse/movie_analyse.py`
+   - 影片分析
+        `python3 analyse/comment_analyse.py`
 
 # 数据结构
 
