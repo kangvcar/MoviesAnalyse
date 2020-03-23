@@ -302,19 +302,20 @@ def get_comment_info_to_cvs(movie_id, movie_name):
 
 
 if __name__ == '__main__':
-    ## 爬取影评
+    ## 使用请取消注释 -> 爬取影片信息
+    movies_id_and_title = get_hot_movies_id(500, '热门')
+    """
+    :param movie_sum: 指定爬取电影的数量，范围 1~500
+    :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
+    """
+    start_spider_movies_info(movies_id_and_title)
+
+
+
+    ## 使用请取消注释 -> 爬取影评
     movies_id_and_title = get_hot_movies_id(100, '豆瓣高分')
     """
     :param movie_sum: 指定爬取电影的数量，范围 1~100
     :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
     """
     start_spider_comment(movies_id_and_title)
-
-
-    ## 爬取影片信息
-    # movies_id_and_title = get_hot_movies_id(500, '热门')
-    # """
-    # :param movie_sum: 指定爬取电影的数量，范围 1~500
-    # :param movie_tag: 指定电影排行tag， 范围 '热门' or '豆瓣高分'
-    # """
-    # start_spider_movies_info(movies_id_and_title)
