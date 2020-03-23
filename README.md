@@ -15,7 +15,25 @@
 | 数据分析模块   |  analyse |
 | 前端模块   |  proxypool/processors/server.py |
 
+
+# 运行
+
+1. 安装 python 3.6+
+2. 安装依赖
+   `pip3 install -r requirements.txt`
+3. 运行代理池和WEB前端
+   `python3 run.py `
+4. 运行影片爬虫模块
+   `python3 moviespider/main.py`
+5. 运行数据分析模块
+   top500影片信息分析
+   `python3 analyse/movie_analyse.py`
+   影片分析
+   `python3 analyse/comment_analyse.py`
+
 # 数据结构
+
+### 豆瓣电影TOP500文件结构
 
 |列名|数据类型|可否为空|说明|
 | ---------- | ---------- | ---- | ---------- |
@@ -35,3 +53,14 @@
 |一星占比|str|否|一星评分的人数占比|
 |短评数|int|否|/|
 |简介|str|否|/|
+
+### 影片评论信息文件结构
+
+|列名|数据类型|可否为空|说明|
+| ---------- | ---------- | ---- | ---------- |
+|用户|str|否|发表评论的用户名|
+|是否看过|str|否|评论的用户是否看过该影片|
+|评分|str|否|力荐/推荐/还行/较差/很差|
+|评论时间|datatime|否|/|
+|有用数|int|否|该评论获得点赞的次数|
+|评论|str|否|评论内容|
