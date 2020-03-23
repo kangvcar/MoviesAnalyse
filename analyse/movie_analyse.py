@@ -73,7 +73,7 @@ class MovieInfoAnalyse(object):
         htmlPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "世界各国电影发行量.html"))
         pngPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "世界各国电影发行量.png"))
         # 生成html
-        # c.render(htmlPath)
+        c.render(htmlPath)
         # 生成png
         # make_snapshot(snapshot, c.render(), pngPath)
         # print(get_current_time() + '|-------> 已生成 世界各国电影发行量 图表...')
@@ -114,7 +114,7 @@ class MovieInfoAnalyse(object):
         htmlPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "各类型占比.html"))
         pngPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "各类型占比.png"))
         # 生成html
-        # c.render(htmlPath)
+        c.render(htmlPath)
         # 生成png
         # make_snapshot(snapshot, c.render(), pngPath)
         # print(get_current_time() + '|-------> 已生成 各类型占比 图表...')
@@ -152,7 +152,7 @@ class MovieInfoAnalyse(object):
         htmlPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "各年份电影发行量.html"))
         pngPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "各年份电影发行量.png"))
         # 生成html
-        # c.render(htmlPath)
+        c.render(htmlPath)
         # 生成png
         # make_snapshot(snapshot, c.render(), pngPath)
         # print(get_current_time() + '|-------> 已生成 各年份电影发行量 图表...')
@@ -194,13 +194,13 @@ class MovieInfoAnalyse(object):
         # 生成html
         c.render(htmlPath)
         # 生成png
-        make_snapshot(snapshot, c.render(), pngPath)
+        # make_snapshot(snapshot, c.render(), pngPath)
         # print(get_current_time() + '|-------> 已生成 演员参演电影数 图表...')
         return c
 
     def make_sentiments_line(self):
-        # csv_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir, "moviespider", "comment_data", "极速车王.csv"))
-        csv_path = os.path.abspath(os.path.join("D:\\MoviesAnalyse", "moviespider", "comment_data", "极速车王.csv"))
+        csv_path = os.path.abspath(os.path.join(os.path.dirname("__file__"), os.path.pardir, "moviespider", "comment_data", "极速车王.csv"))
+        # csv_path = os.path.abspath(os.path.join("D:\\MoviesAnalyse", "moviespider", "comment_data", "极速车王.csv"))
         df = pd.read_csv(csv_path)
         to_drop = ['用户', '是否看过', '评分', '评论时间', '有用数']
         df.drop(to_drop, axis=1, inplace=True)
@@ -230,15 +230,15 @@ class MovieInfoAnalyse(object):
         htmlPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "《极速车王》影评情感分析.html"))
         pngPath = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "analyse_data", "《极速车王》影评情感分析.png"))
         # 生成html
-        # c.render(htmlPath)
+        c.render(htmlPath)
         # 生成png
         # make_snapshot(snapshot, c.render(), pngPath)
         return c
 
 if __name__ == '__main__':
     m = MovieInfoAnalyse()
-    # m.make_geo_map()
-    # m.make_pid_charts()
-    # m.make_relase_year_bar()
-    # m.make_star_treemap()
+    m.make_geo_map()
+    m.make_pid_charts()
+    m.make_relase_year_bar()
+    m.make_star_treemap()
     m.make_sentiments_line()

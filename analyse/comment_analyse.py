@@ -102,8 +102,8 @@ def make_echarts_to_flask(dfword, title):
     wc.set_global_opts(title_opts=opts.TitleOpts(
                 title=title, pos_left="center", title_textstyle_opts=opts.TextStyleOpts(font_size=23)),
                 tooltip_opts=opts.TooltipOpts(is_show=True))
-    # wc.render(htmlPath)
-    make_snapshot(snapshot, wc.render(htmlPath), pngPath)
+    wc.render(htmlPath)
+    # make_snapshot(snapshot, wc.render(htmlPath), pngPath)
 
 def make_bar_rating(filename):
     # 定义各个文件名
@@ -131,8 +131,8 @@ def make_bar_rating(filename):
     bar = Bar()
     bar.add_xaxis(['力荐', '推荐', '还行', '较差', '很差'])
     bar.add_yaxis(title, [values['力荐'], values['推荐'], values['还行'], values['较差'], values['很差']])
-    # bar.render(htmlPath)
-    make_snapshot(snapshot, bar.render(htmlPath), pngPath)
+    bar.render(htmlPath)
+    # make_snapshot(snapshot, bar.render(htmlPath), pngPath)
 
 
 def make_bar_voter_star(filename):
@@ -169,7 +169,7 @@ def make_bar_voter_star(filename):
     bar.reversal_axis()
     bar.set_global_opts(title_opts=opts.TitleOpts(title="电影<" + title + ">影评者影响力排行"))
     bar.render(htmlPath)
-    make_snapshot(snapshot, bar.render(htmlPath), pngPath)
+    # make_snapshot(snapshot, bar.render(htmlPath), pngPath)
 
 def main():
     # base_dir = '../comments/each_comment/'
@@ -188,10 +188,10 @@ def main():
             # segments = comment_cut_list(file)
             # wordcloud_save_to_file(make_frequencies_df(segments), title)
             ###### pyecharts 生成词云 ######
-            # segments = comment_cut_list(file)
-            # make_echarts_to_flask(make_frequencies_df(segments), title)
+            segments = comment_cut_list(file)
+            make_echarts_to_flask(make_frequencies_df(segments), title)
             ###### pyecharts 生成bar 根据评分######
-            # make_bar_rating(file)
+            make_bar_rating(file)
             ###### pyecharts 生成水平bar 根据有用数######
             make_bar_voter_star(file)
         except Exception as e:
